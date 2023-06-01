@@ -1,7 +1,7 @@
 <nav>
   <div class="profil">
     <img
-      src="/images/pdp-linkedin-portrait-1.jpeg"
+      src="images/pdp-linkedin-portrait-1.jpeg"
       class="image-round"
       alt="Photo de profil"
     />
@@ -17,11 +17,11 @@
       <p>Explorer</p>
     </div>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
+      <img src="/icons/book-line.svg" alt="Icône de compétence" />
       <p>Projets</p>
     </div>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
+      <img src="/icons/edit-line.svg" alt="Icône de compétence" />
       <p>Blog</p>
     </div>
   </div>
@@ -29,31 +29,31 @@
   <div class="bloc-sidebar">
     <p class="bloc-title">Ressources</p>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
+      <img src="/icons/bard-line.svg" alt="Icône de compétence" />
       <p>Compétences</p>
     </div>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
+      <img src="/icons/tools-line.svg" alt="Icône de compétence" />
       <p>Outils</p>
     </div>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
-      <p>Et maintenant ?</p>
+      <img src="/icons/user-line.svg" alt="Icône de compétence" />
+      <p>À propos de moi</p>
     </div>
   </div>
 
   <div class="bloc-sidebar">
     <p class="bloc-title">Social</p>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
+      <img src="/icons/github-line.svg" alt="Icône de compétence" />
       <p>GitHub</p>
     </div>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
+      <img src="/icons/linkedin-box-line.svg" alt="Icône de compétence" />
       <p>LinkedIn</p>
     </div>
     <div class="bloc-row">
-      <img src="/icons/compass.png" alt="Icône de compétence" />
+      <img src="/icons/file-text-line.svg" alt="Icône de compétence" />
       <p>Lire mon CV</p>
     </div>
   </div>
@@ -68,14 +68,14 @@
     top: 0;
     left: 0;
     overflow-x: hidden;
-    background-color: #152839;
+    background-color: var(--clr-primary-fade);
     padding-block: 2rem;
     padding-inline: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 3rem;
-    border-right: 1px solid #00ff7f;
+    border-right: 1px solid var(--clr-primary-600);
   }
   .profil {
     display: flex;
@@ -90,9 +90,11 @@
     height: 40px;
   }
   .bloc-sidebar {
+    padding-inline: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
   }
 
   .bloc-row {
@@ -106,7 +108,7 @@
     font-size: 0.8rem;
   }
   .sombre {
-    color: #00ff7f;
+    color: var(--clr-secondary);
     font-size: 0.9rem;
   }
   p {
